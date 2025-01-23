@@ -9,7 +9,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-
 @Entity
 @Table(name = "tb_game")
 public class Game {
@@ -138,7 +137,5 @@ public String getImgUrl() {
 	Game other = (Game) obj;
 	return Objects.equals(id, other.id);
  }
- 
-  
  
 }
